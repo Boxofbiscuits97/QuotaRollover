@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace QuotaRollover
 {
-    [BepInPlugin("Boxofbiscuits97.QuotraRollover", "Quota Rollover", "2.3.0")]
+    [BepInPlugin("Boxofbiscuits97.QuotraRollover", "Quota Rollover", "2.4.0")]
     public class QuotaRolloverBase : BaseUnityPlugin
     {
         private readonly Harmony harmony = new Harmony("Boxofbiscuits97.QuotraRollover");

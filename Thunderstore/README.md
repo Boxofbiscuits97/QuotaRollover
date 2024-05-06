@@ -2,6 +2,10 @@
 ### Anti-hoarding technology that only removes required credits for the quota instead of setting progress to 0
 
 ## Changelog
+- v2.4.0
+	- Added github link to the project page
+	- Fixed an issue where quota was met on day -1
+
 - v2.3.0
 	- Hopefully fixed an issue where you could infinitely play past the deadline in some cases
 

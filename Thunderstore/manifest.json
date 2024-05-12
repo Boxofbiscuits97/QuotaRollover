@@ -1,6 +1,6 @@
 {
     "name": "QuotaRollover",
-    "version_number": "2.4.0",
+    "version_number": "2.5.0",
     "website_url": "https://github.com/Boxofbiscuits97/QuotaRollover",
     "description": "Anti-hoarding technology that only removes required credits for the quota instead of setting progress to 0",
     "dependencies": [

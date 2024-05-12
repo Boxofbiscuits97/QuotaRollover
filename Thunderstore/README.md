@@ -2,6 +2,10 @@
 ### Anti-hoarding technology that only removes required credits for the quota instead of setting progress to 0
 
 ## Changelog
+
+- v2.5.0
+	- Fixed an issue where players were forced to go to the company even when they have met the next quota
+
 - v2.4.0
 	- Added github link to the project page
 	- Fixed an issue where quota was met on day -1

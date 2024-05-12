@@ -17,7 +17,7 @@ namespace QuotaRollover.Patches
         {
             QuotaRolloverBase.logger.LogInfo($"days: {TimeOfDay.Instance.daysUntilDeadline} time: {TimeOfDay.Instance.timeUntilDeadline} ID: {StartOfRound.Instance.currentLevelID}");
 
-            if (TimeOfDay.Instance.daysUntilDeadline <= 0)
+            if (TimeOfDay.Instance.timeUntilDeadline <= 0)
             {
                 __state = ___quotaFulfilled - ___profitQuota;
                 QuotaRolloverBase.logger.LogInfo($"Host Got New Quota at: {__state} ful: {___quotaFulfilled}");
